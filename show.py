@@ -22,8 +22,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Buttons
     keyboard = [
         [InlineKeyboardButton("📋 Register / Download App", url="https://app-web.showpay-web.com/regist?code=2invitepih")],
-        [InlineKeyboardButton("🎓 Beginner Tutorials", url="https://t.me/c/3959441572/9")],
-        [InlineKeyboardButton("🏆 Events", https://t.me/c/3959441572/14")],
         [InlineKeyboardButton("📢 Join Official Channel", url="https://t.me/+zTUX5NlQrDc4NmNl")],
         [InlineKeyboardButton("👨‍💼 Contact HR", url="https://t.me/Bolinshow")]
     ]
