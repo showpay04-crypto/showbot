@@ -30,7 +30,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # Send poster + message
     await update.message.reply_photo(
-        photo=open("poster.jpg", "rb"),
+        photo=open("poster.png", "rb"),
         caption=(
             "🚀 *Welcome to Showpay Bot* 🚀\n\n"
             "💼 ShowPay helps you manage INR & USDT exchange orders easily.\n"
