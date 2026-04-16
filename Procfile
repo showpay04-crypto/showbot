@@ -1,0 +1,1 @@
+worker: python show.py
