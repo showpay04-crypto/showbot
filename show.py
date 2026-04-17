@@ -32,12 +32,12 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_photo(
         photo=open("poster.png", "rb"),
         caption=(
-            "🚀 *Welcome to Showpay Bot* 🚀\n\n"
-            "💼 ShowPay helps you manage INR & USDT exchange orders easily.\n"
-            "🔄 Buy & Sell Orders Easily\n"
-            "💰 INR Orders – Competitive rates\n"
-            "💱 USDT Sell – Live pricing available\n\n"
-            "⚡ Fast | Secure | User-Friendly\n\n"
+            "🚀 *Welcome to Showpay Awareness Bot* 🚀\n\n"
+            "💼 This bot is created to share simple and useful information about digital safety and online awareness.\n\n"
+            "🔄 📌 What you’ll learn:\n"
+            "💰 How to stay safe in online transactions\n"
+            "💱 Common mistakes to avoid\n"
+            "⚡ Smart practices for digital platforms\n\n"
             "👇 Click below to begin 👇"
         ),
         parse_mode="Markdown",
